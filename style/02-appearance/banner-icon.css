@@ -14,6 +14,20 @@
     margin: 0;
 }
 
+.protyle-background__img .protyle-icons {
+    top: 15px;
+}
+
+[data-type="exit-focus"] {
+    color: var(--b3-theme-primary);
+    border: 1px solid var(--b3-theme-primary);
+    
+}
+.block__icon[data-type="exit-focus"]:hover:not([disabled]):not(.ft__primary) {
+    background-color: var(--b3-theme-hover);
+    color: var(--b3-theme-primary);
+}
+
 /* ————————————————————设置icon和提示文字的宽度———————————————————————— */
 .protyle-background__iconw {
     width: 50%;

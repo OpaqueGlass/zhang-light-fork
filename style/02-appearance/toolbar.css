@@ -20,5 +20,11 @@
     background-color: var(--b3-theme-tm1) !important;
     border-radius: var(--b3-border-radius-noraml);
 }
-
+/* 标题下加入父子文档信息兼容 */
+.protyle-background__icon:not(.fn__none)+.protyle-icons {
+    margin-top: 3px !important;
+}
+.protyle-background__iconw .protyle-icons {
+    top: 3px !important;
+}
 /* --------------------------------------------------鼠标选中文本后弹出的工具栏样式 END------------------------------------- */
