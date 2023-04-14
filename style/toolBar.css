@@ -1,0 +1,26 @@
+/* 顶栏背景 */
+.toolbar {
+    background-color: rgb(250,250,250);
+}
+
+/* 焦点切出思源 */
+body.body--blur .toolbar {
+    background-color: rgba(225, 224, 224, 1);
+}
+
+/* 按钮颜色 */
+.toolbar__item {
+    /* background-color: var(--b3-theme-surface-light); */
+    color: #383a42;
+}
+/* 悬停在按钮上 */
+.toolbar__item:hover,
+.toolbar__item--active {
+    background-color: #c7ced7 !important;
+    color: #383a42; 
+}
+/* 顶栏内文字 */
+.toolbar__text,
+.toolbar #drag {
+    color: #383a42; 
+}
